@@ -4,7 +4,7 @@ import { DashboardPage } from "./summary/dashboard.summary.page";
 
 export const dashboardRoutes = [
   {
-    path: "/dashboard",
+    path: "dashboard",
     children: [
       { path: "", element: <DashboardPage /> },
       { path: "analytics", element: <DashboardAnalyticPage /> },
